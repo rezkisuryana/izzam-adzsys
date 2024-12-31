@@ -1,0 +1,727 @@
+/* Nav */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.navul li{
+    list-style: none;
+}
+
+
+
+.nav img {
+    padding-top: 7px;
+    margin-right: 7 0px;
+    height: 40px;
+    width: 116.79px;
+}
+
+.navul a {
+    text-decoration: none;
+    margin: 20px;   
+    color: black;
+    font-size: large;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    padding: 5px;
+}
+
+.navul a:hover{
+    border-bottom: 3px solid  rgb(78, 57, 171);
+}
+
+.navul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navinnav {
+    padding: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;  
+    opacity: 0.9;
+    width: 1100px;  
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    margin: 20px;
+    position: absolute;
+    z-index: 9999   ;
+}
+
+.wraper {
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+
+.nav button {
+    height: 50px;
+    border: 2px solid #3C447B;
+    border-radius: 10px;
+    background-color: #3C447B;
+    color: white;
+    margin-left: 70px;
+}
+
+.nav button:hover {
+    background-color: white;
+    color: #3C447B;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px 50px 50px ;
+    z-index: 1;
+    padding-top: 110px;
+}
+
+.subhero {
+    width: 40%;
+    margin-top: 30px;
+
+}
+
+.imghero  img {
+    width: 400px;
+
+}
+
+.subhero h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.orange {
+    color: #ff5050;
+}
+
+.subhero p {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.subhero button {
+    height: 40px;
+    background-color: #ff5050;
+    border: 2px solid #ff5050;
+    border-radius: 10px;   color: white;
+}
+
+.subhero button:hover {
+    background-color: white;
+    color: #ff5050;
+}
+
+
+/* BG */
+.allnav {
+    background: rgb(74,84,148);
+    background: linear-gradient(90deg, rgba(74,84,148,1) 0%, rgba(41,48,88,1) 100%);
+    height: 120vh;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.void {
+    width: 60px;
+    height: 5px;
+}
+
+/* Fitur */
+
+.all-fitur1 {
+    display: flex;
+    justify-content: center;
+    margin: 70px 50px 10px;
+}
+
+.fitur-text {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    padding: 10px 20px 10px;
+}
+
+.fitur-text h2 {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.fitur-orange {
+    color: #ff5050;
+    font-size: larger;
+}
+
+.fitur-content   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fitur-in1 {
+    margin: 5px 20px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.fitur-in1:hover {
+    background-color: #dbe0ff;
+}
+
+.fitur-in1 p {
+    text-align: center;
+    margin-top: 1px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    color: #3C447B;
+}
+
+.fitur-in1 img {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 0;
+}
+
+.all-fitur3 {
+    margin-top: 20px;
+}
+
+.all-fitur2 {
+    margin-top: 5px;
+}
+
+
+
+.all-of-all-fitur {
+    margin: 100px auto 100px;
+}
+
+ /* About us */
+
+ .tittle-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+ }
+
+.all-of-all-about-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 50px 100px;
+}
+
+.all-about-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px 75px ;
+    background: rgb(84,95,167);
+    background: linear-gradient(90deg, rgba(84,95,167,1) 0%, rgba(54,61,110,1) 100%);
+    border-radius: 15px;
+    color: white;
+}
+
+.about-orange {
+    color: #ff5050;
+}
+
+.text-about-us {
+    width: 40%;
+    margin: 50px;
+}
+
+.text-about-us p{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.text-about-us h2{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.img-about-us img {
+    width: 200px;
+    padding-top: 60px;
+}
+
+.img-about-us {
+    margin: 30px;
+}
+
+.tittle-about {
+    margin-bottom: 5px;
+}
+
+.tittle-about p {
+    margin-bottom: 0;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.tittle-about h1 {
+    margin-top: 0;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* problem */
+
+.all-of-all-problem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 50px;
+} 
+
+.tittle-problem {
+    margin: 35px;
+}
+
+
+.tittle-problem h1{
+    text-align: center;
+    margin-bottom: 0;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.tittle-problem p {
+    text-align: center;
+    margin-top: 0;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.problem-orange {
+    color: #ff5050;
+}
+
+
+
+.all-problem {
+    background-color: white;
+    width: 310px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+}
+
+.all-problem:hover {
+    background: #f5f6ff;
+}
+
+
+.img-problem img {
+    width: 310px;   
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.head-problem {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.head-problem h3 {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.problem-wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Call to action */
+
+.all-of-all-call {
+    margin: 100px 0;
+    background: url(biru.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.call-to-action {
+    padding: 70px 170px ;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+
+.call-to-action h1 {
+    margin-bottom: 10px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.call-to-action p {
+    margin-top: 10px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.call-orange {
+    color: #ff5050;
+}
+
+.call-button {
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: #ff5050;
+    border: 2px solid #ff5050;
+    border-radius: 10px;   color: white;
+}
+
+.call-button:hover {
+    background-color: white;
+    color: #ff5050;
+}
+
+
+/* Accordion */
+
+
+:root {
+    --primary: #3c447b;
+    --secondary: #ff5252;
+    --background: #eee;
+    --highlight: #ffda79;
+    /* Theme color */
+    --theme: var(--primary);
+  }
+
+/* Core styles/functionality */
+.tab {
+    position: relative;
+  }
+  .tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  .tab__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.35s;
+  }
+  .tab input:checked ~ .tab__content {
+    max-height: 10rem;
+  }
+  
+  /* Visual styles */
+  .accordion {
+    color: var(--background);
+    width: 1050px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 100px; 
+  }
+  .tab__label,
+  .tab__close {
+    display: flex;
+    color: white;
+    background: var(--theme);
+    cursor: pointer;
+  }
+  .tab__label {
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+    z-index: 2;
+
+  }
+  .tab__label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transform: rotate(90deg);
+    transition: all 0.35s;
+  }
+  .tab input:checked + .tab__label::after {
+    transform: rotate(270deg);
+  }
+  .tab__content p {
+    margin: 0;
+    padding: 1rem;
+  }
+  .tab__close {
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  /* MINE */
+.accordion-wraper {
+    display: flex;
+    justify-content: center;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    padding: 25px 10px 25px;
+    background: var(--primary);
+    margin: 5px 75px 5px 75px;
+    border-radius: 20px;
+}
+
+.tab img {
+    width: 20px;
+    height: 20px;
+}
+
+.accordion-tittle {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom: 5px;
+}
+
+.accordion-tittle p {
+    margin-bottom: 0px;
+}
+
+.accordion-tittle h1 {
+    margin-top: 0px;
+}
+
+.all-accordion {
+    margin: 100px 0 ;
+}
+
+/* Comment */
+.myskill {
+    margin: 70px 50px 50px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+}   
+
+.myskill h1 {
+    margin-top: 0;
+}
+
+.myskill p {
+    margin-bottom: 0;
+}
+
+
+.img2 {
+    width: 50px;
+}
+
+.skill1 {
+    background-color: #ffffff;
+    width:  40.5%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    border-bottom: 5px solid white;
+}
+
+
+.Paragafskill h3 {
+    margin: 2px 0px 15px;
+}
+
+.Paragrafskill p {
+    margin-top: 5px ;
+}
+
+.img2   {
+    width: fit-content;
+    height: auto;
+    margin-bottom: 0;
+
+}
+
+.allskill {
+    padding: 10px 40px 0px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.skill1:hover {
+    border-bottom: 5px solid  #3C447B;
+}
+
+.all-of-comment {
+    margin: 5px 0 5px;
+}
+
+.bintang img {
+    width: 20px;
+    height: auto;
+}
+
+.tittle-comment {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;  
+}
+
+.tittle-comment p {
+    margin-bottom: 0;
+}
+
+.tittle-comment h1 {
+    margin-top: 0;
+}
+
+.all-of-itc {
+    margin: 100px 0 100px;
+}
+
+/* kirim komentar */
+
+
+
+.contact-warper {
+    padding: 40px 0 ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 75px 100px;
+    background-color: white;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+}
+
+.tittle-contact p {
+    width: 400px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;  
+}
+
+.tittle-contact h1 {
+    font-size: xx-large;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;  
+}
+
+.contact1 {
+    width: 40%;
+    margin: 40px 0 40px;
+}
+
+.input-in input{
+    width: 400px;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.input-data button {
+    width: 408px;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #3C447B;
+    color: white;
+    border-style: none;
+
+}
+
+.input-data button:hover {
+    background-color: #828ede;
+    color: #ffffff;
+}
+
+.input-data {
+    width: 500px;
+}
+
+.maps {
+    margin: 40px 0 40px;
+}
+
+.cta {
+
+    text-align: center;
+}
+
+.h11 {
+    margin-bottom: 0;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;  
+}
+
+.h12 {
+    margin-top: 0;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;      
+}
+
+.btn-cta {
+    width: 170px;
+    height: 30px;
+    margin-right: 7px;
+    background-color: #ff5050;
+    color: white;
+    border: #ff5050 2px solid;
+    border-radius: 5px;
+}
+
+.btn-cta2 {
+    width: 170px;
+    height: 30px;
+    margin-left: 7px;
+    background-color: #3C447B;
+    color: white;
+    border: #3C447B 2px solid;
+    border-radius: 5px;
+}
+
+.cta-orange {
+    color: #ff5050;
+}
